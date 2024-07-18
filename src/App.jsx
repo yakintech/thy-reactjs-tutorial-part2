@@ -3,8 +3,14 @@ import ProductDetail from './props/ProductDetail'
 import JsxEvents from './components/JsxEvents'
 import Parent from './props/Parent'
 import ProductList from './components/ProductList'
+import StateColor from './stateSample/StateColor'
+import StateArraySample from './stateSample/StateArraySample'
+import ObjectArraySample from './stateSample/ObjectArraySample'
+import InputStateSample from './stateSample/InputStateSample'
 
 function App() {
+
+  return <ObjectArraySample/>
 
   const hello = () => {
     console.log("Hello Props!")

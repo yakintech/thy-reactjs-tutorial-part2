@@ -1,5 +1,5 @@
 
-export let products = [
+export let productsData = [
     {
         "id": 4,
         "supplierId": 2,

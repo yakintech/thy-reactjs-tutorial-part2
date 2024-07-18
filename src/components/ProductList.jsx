@@ -1,5 +1,5 @@
 import React from 'react'
-import { products } from '../data/products'
+import { productsData } from '../data/products'
 
 function ProductList() {
 
@@ -13,7 +13,7 @@ function ProductList() {
     </thead>
     <tbody>
         {
-            products.map(item => <tr>
+            productsData.map(item => <tr>
                 <td>{item.id}</td>
                 <td>{item.name}</td>
                 <td>{item.unitPrice}</td>
